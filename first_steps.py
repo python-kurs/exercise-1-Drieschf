@@ -14,8 +14,9 @@ v_2 = 100 % 17
 
 # 4) The speed of light is about 300'000 km/s. Calculate the wavelength (in nanometers) of a light wave with a frequency of 5.0E+14 per second. Can we see this light? [4P]
 #    Save the result in v_3.
-v_3 = (300000E-9)/(5.0E+14) 
-#No, we can't see this light
+#lambda = c/f  
+v_3 = ((300000000)/(5.0E+14))*1E+9 
+#Yes, we can see this light
 
 # 5) Print the following string to the console using the format-function and the variables 'n' and 'pi': "Pi rounded to the first 10 decimals is: 3.1415926536" [2P]
 n  = 10
